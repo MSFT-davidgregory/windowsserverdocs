@@ -65,7 +65,9 @@ Example 3:
 
 The following is more information about the PromptLoginBehavior paramter and its settings.
    
+   - <b>Null</b> means the default Azure AD behavior of sending <b>wauth</b> and <b>wfresh</b> to AD FS instead of prompt=login
    - <b>TranslateToFreshPasswordAuth</b> means the default Azure AD behavior of sending <b>wauth</b> and <b>wfresh</b> to AD FS instead of prompt=login
    - <b>NativeSupport</b> means that the prompt=login parameter will be sent as is to AD FS
    - <b>Disabled</b> means nothing will be sent to AD FS
+
 
